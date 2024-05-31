@@ -1,0 +1,99 @@
+/* fonts styling*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* css default format setting */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-light-gray{
+    background-color: rgb(241, 240, 240)
+}
+
+.section_title h1{
+    text-decoration: underline;
+}
+
+/*for cart logo hover effect */
+.cart a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.cart a:hover{
+    text-decoration: none;
+    list-style: none;
+}
+
+.bg_cart_1{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.list-group-item {
+    background-color: inherit !important;
+}
+
+/* for checkout page */
+
+.bg_checkout_1{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+/*for product layout design*/
+.single_product{
+    background-color: rgb(241, 240, 240);
+}
+
+.product_img{
+    position: relative;
+}
+
+.product_img .new_product{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.contact_form{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+/* for services section background gradient*/
+.feature{
+    background: rgb(0, 121, 230);
+    background: linear-gradient(0deg,rgba(0,121,230,1) 0%, rgba(0,250,255,1)90%);
+}
+
+/*for footer section*/
+.footer_section{
+    border-top: 3px solid #007BFF;
+    border-radius: 10px;
+}
+
+/*for footer links*/
+.footer_links ul li {
+    list-style-type: none;
+}
+
+
+.carousel > .carousel-inner > .carousel-item > img{
+    width: 1488px !important; /* Yeap you can change the width and height*/
+    height:365px !important;
+}
+
+#navbarSupportedContent > div.search.mr-3{
+    display: flex !important;
+    flex-basis: auto;
+}
+
+#navbarSupportedContent > div.search.mr-3 > input{
+    margin-right: 10px;
+}
+
